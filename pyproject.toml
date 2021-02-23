@@ -21,3 +21,5 @@ homepage = "https://github.com/garner1/modern-python"
 repository = "https://github.com/garner1/modern-python"
 keywords = ["hypermodern"]
 
+[tool.poetry.scripts]
+modern-python = "modern_python.console:main"
